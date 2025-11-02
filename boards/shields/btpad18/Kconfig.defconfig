@@ -1,0 +1,6 @@
+if SHIELD_BTPAD18
+
+config ZMK_KEYBOARD_NAME
+    default "BTPad18"
+
+endif

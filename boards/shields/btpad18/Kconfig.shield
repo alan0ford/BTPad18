@@ -1,0 +1,2 @@
+config SHIELD_BTPAD18
+    def_bool $(shields_list_contains,btpad18)
