@@ -1,7 +1,6 @@
 {
   "id": "btpad18",
   "name": "btpad18",
-{
   "layouts": {
     "LAYOUT": {
       "layout": [
@@ -28,7 +27,6 @@
         { "row": 3, "col": 3, "x": 3, "y": 3, "label":                "." }
       ]
     }
-  }
-},
+  },
   "sensors": []
 }
