@@ -56,17 +56,17 @@
             bindings = <
 &lt 1 F2  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT
 &lt 2 F3  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE
-&kp F8    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &mt LA(RET) KP_ENTER
+&kp F8    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &mt LEFT_ALT KP_ENTER
 &kp F9    &kp KP_NUMBER_0                   &kp KP_DOT
             >;
         };
 
         ALT_layer {
             bindings = <
-&trans  &trans     &battery_printer  &trans  &kp KP_PLUS
-&trans  &trans     &trans            &trans  &kp KP_MULTIPLY
-&trans  &trans     &trans            &trans  &trans
-&trans  &kp SPACE                    &trans
+&trans          &trans     &battery_printer  &trans         &kp KP_PLUS
+&trans          &trans     &trans            &trans         &kp KP_MULTIPLY
+&trans          &trans     &trans            &trans         &trans
+&kp KP_NUMLOCK  &kp SPACE                    &kp BACKSPACE
             >;
         };
 
