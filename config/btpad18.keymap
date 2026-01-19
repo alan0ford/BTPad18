@@ -8,6 +8,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define DEF 0
@@ -72,8 +73,8 @@
 
         CTR_layer {
             bindings = <
-&trans  &trans           &bootloader   &trans        &trans
-&trans  &rgb_ug RGB_TOG  &trans        &trans        &trans
+&trans  &trans           &bootloader   &trans        &bt BT_PRV
+&trans  &rgb_ug RGB_TOG  &out OUT_TOG  &trans        &bt BT_NXT
 &trans  &bt BT_SEL 0     &bt BT_SEL 2  &bt BT_SEL 2  &trans
 &trans  &bt BT_CLR_ALL                 &trans
             >;
